@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Configuration of Employee Bean -->
+   
+	<bean id="emp1" class="org.jsp.configurationOfXml.Employee" scope="prototype"></bean>
+    <!-- <bean id="emp2" class="org.jsp.configurationOfXml.Employee" scope="singleton"></bean> -->
+	
+	<!-- IoC container will create object by using constructor with one argument and inject data in properties -->
+	<bean id="emp2" class="org.jsp.configurationOfXml.Employee">
+		<!-- to inject data -->
+		<constructor-arg value="101"></constructor-arg>
+	</bean>
+	
+	<!-- IoC container will create object by using constructor with two arguments and inject data in properties -->
+	<bean id="emp3" class="org.jsp.configurationOfXml.Employee" scope="prototype">
+		<!-- to inject data -->
+		<!-- follow order for constructor arguments -->
+		<constructor-arg value="102"></constructor-arg>
+		<constructor-arg value="XYZ"></constructor-arg>
+	</bean>
+	
+	<!-- IoC container will create object by using constructor with three arguments and inject data in properties -->
+	
+	<bean id="emp4" class="org.jsp.configurationOfXml.Employee" scope="prototype">
+		<!-- don't maintain order of arguments -->
+		<constructor-arg name="salary" value="45000"></constructor-arg>
+		<constructor-arg name="empId" value="103"></constructor-arg>
+		<constructor-arg name="ename" value="PQR"></constructor-arg>
+	</bean>
+	
+	<bean id="emp5" class="org.jsp.configurationOfXml.Employee" scope="prototype">
+		<!-- don't maintain order of arguments -->
+		<constructor-arg index="1" value="ABC"></constructor-arg>
+		<constructor-arg index="0" value="104"></constructor-arg>
+		<constructor-arg index="2" value="55000"></constructor-arg>
+	</bean>
+	
+	<!-- Configure Bean of BankAccount Class -->
+	<bean id="bankAccount" class="org.jsp.configurationOfXml.BankAccount" scope="prototype">
+		<constructor-arg index="1" value="95000"></constructor-arg>
+		<constructor-arg index="0" value="SBI-84652156"></constructor-arg>
+	</bean>
+	
+	<!-- Configure Bean of Employee Class -->
+	<bean id="emp6" class="org.jsp.configurationOfXml.Employee" scope="prototype">
+		<!-- don't maintain order of arguments -->
+		<constructor-arg index="1" value="STU"></constructor-arg>
+		<constructor-arg index="0" value="105"></constructor-arg>
+		<constructor-arg index="2" value="78000"></constructor-arg>
+		<constructor-arg index="3" ref="bankAccount"></constructor-arg>
+	</bean>
+</beans>

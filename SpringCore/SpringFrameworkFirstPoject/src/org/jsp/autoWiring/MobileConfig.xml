@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+ 	<bean id="wages" class="org.jsp.autoWiring.GooglePay" scope="prototype">
+ 	<constructor-arg value="18000"></constructor-arg>
+   	</bean>
+   
+	<bean id="pay" class="org.jsp.autoWiring.Phonepe" scope="prototype">
+	<constructor-arg value="90000"></constructor-arg>
+   	</bean>
+   	
+   	<bean id="payment" class="org.jsp.autoWiring.Paytm" scope="prototype">
+   	<constructor-arg value="20000"></constructor-arg>
+   	</bean>
+   	
+   	<bean id="mobile1" class="org.jsp.autoWiring.Mobile" scope="prototype" autowire="byName">
+   	<property name="color" value="Purple"></property>
+   	<property name="brand" value="Samsung"></property>
+   	<property name="price" value="30200"></property>
+   	</bean>
+
+</beans>

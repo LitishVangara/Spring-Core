@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-aop-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-aspects-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-beans-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-context-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-context-indexer-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-context-support-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-core-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-core-test-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-expression-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-instrument-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-jcl-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-jdbc-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-jms-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-messaging-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-orm-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-oxm-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-r2dbc-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-test-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-tx-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-web-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-webflux-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-webmvc-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/latest/Spring/spring-6.0.0-RC2-dist/spring-framework-6.0.0-RC2/libs/spring-websocket-6.0.0-RC2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

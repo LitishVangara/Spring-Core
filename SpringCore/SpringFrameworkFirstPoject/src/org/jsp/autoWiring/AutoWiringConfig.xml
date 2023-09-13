@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<!-- Configure Author Bean (Dependency) -->
+	<bean id="author" class="org.jsp.setterInjection.Author">
+	<constructor-arg value="ABCPQR"></constructor-arg>
+	<constructor-arg value="4512896374"></constructor-arg>
+   	</bean>
+	
+	<!-- Configure Book Bean (Parent Object) -->
+   	<bean id="book1" class="org.jsp.setterInjection.Book" autowire="byName">
+   	<property name="bookId" value="book-103"></property>
+   	<property name="bookName" value="Advanced Java"></property>
+   	<property name="price" value="420"></property>
+   	<!-- no need to specify property tag to inject author bean -->
+   	</bean>
+
+</beans>
